@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    margin: 100px;
+    background-color: d4cabe;
+    border: 2px solid black;
+}
+.heading{
+    display: flex;
+    justify-content: center; 
+}
+h2{
+
+}
+.line{
+    margin: 0 100px;
+}
+.line hr{
+    margin: 0;
+    border: 1px solid black;
+}
+.basic{
+    display: flex;
+    justify-content: center; 
+}
+.subgroups{
+     margin: 50px;
+}
+.vertical_line{
+    margin: 25px 0 ;
+    border-right: 2px solid black;
+}
