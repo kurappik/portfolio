@@ -4,19 +4,71 @@ body{
 }
 .block{
     margin: 100px;
-    background-color: d4cabe;
+    background-color: rgb(212 202 190); 
     border: 2px solid black;
 }
 .heading{
     display: flex;
     justify-content: center; 
+    align-items: center;
+    background-color: rgb(128 98 72);
 }
 h2{
-
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
 }
 .line{
     margin: 0 100px;
 }
+
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.top p {
+    font-size: 20px;
+    margin: 40px 0;
+    color: rgb(255, 255, 255);
+}
+
+.top div {
+    margin-left: 30px;
+    background-color: rgba(165, 144, 123, 1);
+    padding: 0 10px;
+    border: 6px solid rgba(128, 98, 72, 1);
+}
+
+.obrazovanie {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kei {
+    font-size: 26px;
+    
+}
+
+.subgroups img {
+    margin: 20px 0;
+}
+
+.obo-mne {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    font-size: 23px;
+}
+
 .line hr{
     margin: 0;
     border: 1px solid black;
